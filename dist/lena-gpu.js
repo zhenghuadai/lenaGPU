@@ -336,6 +336,9 @@
             var mykernel = this.gfxkernels.conv3x3;
             let w = image.width || this.width;
             let h = image.height || this.height;
+            if(typeof weights === "string"){
+                weights = operators[weights];
+            }
             if ((weights == null) || (w == null) || (h == null)) {
                 return null;
             } else if (
@@ -369,7 +372,7 @@
         }
         */
 
-        filterImage(filtername, image, canvas) {
+        filterImage(image, filtername, canvas) {
             let filter = operators[filtername];
             return this.convolution(image, filter, canvas);
         }

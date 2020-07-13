@@ -41,6 +41,8 @@ sepia            : ƒ (image, dstCanvas)
 sharpen          : ƒ (image, dstCanvas)
 sobelHorizontal  : ƒ (image, dstCanvas)
 sobelVertical    : ƒ (image, dstCanvas)
+dct              : ƒ (image)            // return a texture
+idct             : ƒ (dct_texture)      // dct_texture is the texture returned by dct
 convolution      : ƒ convolution(image, weights, dstCanvas)
 filterImage      : ƒ filterImage(image, filtername, dstCanvas)
 canny            : ƒ canny(image, dstCanvas, ...rest)

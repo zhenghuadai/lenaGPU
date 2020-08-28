@@ -7,6 +7,10 @@
 http://zhenghuadai.github.io/lenaGPU.html
 
 ## Tutorials
+```html
+<script src='http://blog.biosuefi.com/js/gpu-browser.js'></script>
+<script src='http://blog.biosuefi.com/js/lena-gpu.js'></script>
+```
 ```javascript
 var lenaGPU = new LenaGPU({width: 512, height: 512});
 let img     = $('#image000')[0];  // source image

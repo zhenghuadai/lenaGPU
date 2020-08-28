@@ -5,6 +5,7 @@
 ## Demo
 
 http://zhenghuadai.github.io/lenaGPU.html
+![image](https://raw.githubusercontent.com/zhenghuadai/zhenghuadai.github.io/master/images/lenagpu.png)
 
 ## Tutorials
 ```html
